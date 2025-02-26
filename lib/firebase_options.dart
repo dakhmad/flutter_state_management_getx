@@ -40,50 +40,5 @@ class DefaultFirebaseOptions {
     }
   }
 
-  static const FirebaseOptions web = FirebaseOptions(
-    apiKey: 'AIzaSyCPGQcnC9VTXsgdCNA3b2IwrwrxmV5hCgw',
-    appId: '1:939449096588:web:ac266bb26dbc6d91eadea9',
-    messagingSenderId: '939449096588',
-    projectId: 'firestoreflutter-95914',
-    authDomain: 'firestoreflutter-95914.firebaseapp.com',
-    storageBucket: 'firestoreflutter-95914.firebasestorage.app',
-    measurementId: 'G-7CJ26HPG3W',
-  );
-
-  static const FirebaseOptions android = FirebaseOptions(
-    apiKey: 'AIzaSyCZWzhH23AQDexvz8Nvy3tJuZBXj0Xnliw',
-    appId: '1:939449096588:android:08aa32845c0c1556eadea9',
-    messagingSenderId: '939449096588',
-    projectId: 'firestoreflutter-95914',
-    storageBucket: 'firestoreflutter-95914.firebasestorage.app',
-  );
-
-  static const FirebaseOptions ios = FirebaseOptions(
-    apiKey: 'AIzaSyDOoIXoGNhsvKZqB02PXLr85ISFZhyxhow',
-    appId: '1:939449096588:ios:7bd1e31a26ba107eeadea9',
-    messagingSenderId: '939449096588',
-    projectId: 'firestoreflutter-95914',
-    storageBucket: 'firestoreflutter-95914.firebasestorage.app',
-    iosBundleId: 'com.example.stateManagementApp',
-  );
-
-  static const FirebaseOptions macos = FirebaseOptions(
-    apiKey: 'AIzaSyDOoIXoGNhsvKZqB02PXLr85ISFZhyxhow',
-    appId: '1:939449096588:ios:7bd1e31a26ba107eeadea9',
-    messagingSenderId: '939449096588',
-    projectId: 'firestoreflutter-95914',
-    storageBucket: 'firestoreflutter-95914.firebasestorage.app',
-    iosBundleId: 'com.example.stateManagementApp',
-  );
-
-  static const FirebaseOptions windows = FirebaseOptions(
-    apiKey: 'AIzaSyCPGQcnC9VTXsgdCNA3b2IwrwrxmV5hCgw',
-    appId: '1:939449096588:web:f9fa56b4f2679407eadea9',
-    messagingSenderId: '939449096588',
-    projectId: 'firestoreflutter-95914',
-    authDomain: 'firestoreflutter-95914.firebaseapp.com',
-    storageBucket: 'firestoreflutter-95914.firebasestorage.app',
-    measurementId: 'G-S6ENQXDXPF',
-  );
-
+    // konfigurasi dengan mengetik di terminal "flutterfire configure --nama_project_flutter_Anda_di_console_firebase"
 }
